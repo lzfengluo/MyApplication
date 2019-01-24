@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">MyApplication</string>
+    <string name="app_name">猜一猜</string>
+
+    <string name="title">试试手气吧</string>
 </resources>
