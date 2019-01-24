@@ -1,5 +1,6 @@
 package com.example.my_pc.myapplication;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private ImageView img3;
     private TextView tv_title;
     private Button btn1;
+    private Button btn2;
     // 保存全部图片id的数组
     int[] imgs = new int[]{R.drawable.enn_ok,R.drawable.enn_sorry,R.drawable.enn_sorry};
 
@@ -55,6 +57,15 @@ public class MainActivity extends AppCompatActivity {
                 img3.setImageDrawable(getResources().getDrawable(R.drawable.enn_default));
             }
         });
+
+        //去进度条页面
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,ProBarActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     // 随机指定正确图片的位置
@@ -74,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
         img3 = (ImageView) findViewById(R.id.img3);
         tv_title = (TextView) findViewById(R.id.tv_title);
         btn1 = (Button) findViewById(R.id.btn1);
+        btn2 = (Button) findViewById(R.id.btn2);
     }
 
     // 判断结果

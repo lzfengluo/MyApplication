@@ -69,6 +69,12 @@
             android:layout_height="wrap_content"
             android:text="再玩一次" />
 
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="下个页面" />
+
     </LinearLayout>
 
 </TableLayout>

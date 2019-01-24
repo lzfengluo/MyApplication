@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/probar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:padding="10dp"/>
+
+    <ProgressBar
+        android:id="@+id/probar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleLarge"
+        android:padding="10dp"/>
+
+    <ProgressBar
+        android:id="@+id/probar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Large"
+        android:padding="10dp"/>
+
+    <ProgressBar
+        android:id="@+id/probar4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar.Small"
+        android:padding="10dp"/>
+
+    <ProgressBar
+        android:id="@+id/probar5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleSmall"
+        android:padding="10dp"/>
+
+    <ProgressBar
+        android:id="@+id/probar6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:padding="10dp"/>
+
+</LinearLayout>
